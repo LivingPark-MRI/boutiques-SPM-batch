@@ -1,6 +1,7 @@
 A [Docker](https://hub.docker.com/) container and [Boutiques](http://boutiques.github.io) descriptor to run an SPM batch. 
 
 * `Dockerfile`: Dockerfile for a Docker image containing SPM, executed with GNU Octave.
+Use Octave 5.2.0 instead of latest as DARTEL crashes with latest version.
 See [SPM documentation](https://en.wikibooks.org/wiki/SPM/Octave) for Matlab vs Octave compatibility. 
 
 * `spm-batch.json`: A Boutiques descriptor to run an SPM batch. 
